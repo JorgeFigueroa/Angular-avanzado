@@ -37,3 +37,7 @@ testem.log
 # System Files
 .DS_Store
 Thumbs.db
+karma.conf.js
+protractor.conf.js
+app.e2e-spec.ts
+app.po.ts
