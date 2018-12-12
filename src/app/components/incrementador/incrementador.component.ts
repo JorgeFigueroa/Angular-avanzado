@@ -11,6 +11,7 @@ export class IncrementadorComponent implements OnInit {
 
   @Input('nombre') leyenda: string = 'Leyenda';
   @Input() progreso: number = 50;
+
   @Output('actualizaValor') cambioValor: EventEmitter<number> = new EventEmitter();
 
   constructor() {
@@ -57,7 +58,9 @@ export class IncrementadorComponent implements OnInit {
     }
 
     this.progreso = this.progreso + valor;
+
     this.cambioValor.emit( this.progreso );
+
     this.txtProgress.nativeElement.focus();
 
   }
