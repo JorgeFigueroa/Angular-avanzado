@@ -10,4 +10,4 @@
 *.gitattributes text
 .gitignore text
 *.md text
-*.css
+*.css text
