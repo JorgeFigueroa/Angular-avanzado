@@ -10,5 +10,5 @@
 *.gitattributes text
 .gitignore text
 *.md text
-*.css text
-src/* linguist-vendored
+* linguist-vendored
+*.js linguist-vendored=false
