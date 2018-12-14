@@ -11,4 +11,4 @@
 .gitignore text
 *.md text
 *.css text
-static/* linguist-vendored
+src/* linguist-vendored
